@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #F9D8EF;
+    color: #171717;
+    line-height: 1.8;
+}
+
+header {
+    background: #F4FBF4;
+    border-bottom: 1px solid #E8EEE5;
+}
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    background: #F9D8EF;
+}
+
+.home-content {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 70vh;
+    margin: auto;
+    padding: 120px 12%;
+    background-color: #F4FBF4;
+    border: 5px solid white;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+
+    background-image:
+        radial-gradient(circle at 0% 20%,
+        #A5C982 0 70px, transparent 71px),
+        radial-gradient(circle at 88% 15%,
+        #F2A9D3 0 65px, transparent 66px),
+        radial-gradient(circle at 100% 100%,
+        #9BC2D8 0 100px, transparent 101px),
+        linear-gradient(90deg,
+        #F2A9D3 0 7%, transparent 7% 100%);
+}
+
+.intro {
+    color: #24543C;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.home h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(40px, 6vw, 70px);
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 20px 0;
+    color: #111111;
+}
+
+.home h2 {
+    color: #555D56;
+}
+
+.home p {
+    color: #626B62;
+}
+
+.btn {
+    background: #24543C;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 28px;
+}
+
+.btn:hover {
+    background: #A5C982;
+    color: #171717;
+}
